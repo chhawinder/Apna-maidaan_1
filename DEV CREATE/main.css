@@ -1,0 +1,190 @@
+body{
+font-family: 'Fira Sans', sans-serif;
+  background-color: #E5E5E5;
+}
+
+#face_page{
+  background: linear-gradient(to right,#4182BC , #435C7B);
+  padding-bottom: 100px;
+}
+ .present,.tagLine,.brand{
+  padding: 40px 0 0 60px;
+  color: white;
+}
+.navbar-custom .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-custom .nav-link:hover{
+  color: #365782;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px black;
+}
+.navbar-item{
+  padding: 0 20px;
+}
+.present{
+  font-size: 14px;
+}
+.tagLine{
+  font-size: 1.5rem;
+
+}
+.brand{
+   font-size: 4.5rem;
+   line-height: 1.5;
+}
+.sport{
+  padding: 20px;
+}
+
+
+/* cards */
+.game{
+  background-color: #E5E5E5;
+}
+
+
+.cardss{
+  margin: 30px;
+    border-radius: 16px;
+    background: linear-gradient(to right,#4182BC , #435C7B);
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.cardss:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.cardss h3,p{
+  color: white;
+  font-weight: 600;
+}
+
+.cardss img{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  max-height: 120px;
+}
+
+
+@media(max-width: 1200px){
+
+  /* .sport{
+    position: static;
+    width: 600px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  } */
+}
+
+@media(max-width: 990px){
+  .card{
+    margin: 20px;
+  }
+}
+
+
+
+
+
+/* price cards */
+.pricing{
+  background: linear-gradient(to right,#4182BC , #435C7B);
+  padding: 70px 0;
+
+}
+.card-deck{
+  padding: 80px;
+
+}
+.card-body:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+
+
+}
+.card-deck .card,.card-body {
+  border-radius: 40px;
+
+}
+.card-body{
+
+  text-align: center;
+  background-color: #E5E5E5;
+  color: #435C7B;
+
+}
+
+.card-text{
+  color: #4182BC;
+}
+
+/* button */
+.BUTTON_GZK {
+   background: #4182BC;
+
+   -webkit-border-radius: 70px;
+   -moz-border-radius: 70px;
+   border-radius: 70px;
+   color: #E5E5E5;
+   padding: 20px;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   border: none;
+}
+
+.BUTTON_GZK:hover {
+   border: solid #337FED 1px;
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 70px;
+   -moz-border-radius: 70px;
+   border-radius: 70px;
+   text-decoration: none;
+}
+.ending{
+  padding: 80px 0 80px 120px ;
+}
+.end{
+  margin: 20px;
+}
+.quote{
+  font-size: 3.5rem;
+
+  color: #435C7B;
+  width:100%;
+   text-align:right;
+}
+
+
+
+/* footer */
+
+#footer{
+padding: 7%;
+  text-align: center;
+  background: linear-gradient(to right,#4182BC , #435C7B);
+}
+.social{
+color: white;
+  padding:  3%;
+}
+.social:hover{
+  color: #E5E5E5;
+}
